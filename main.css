@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0611;
+    color: #f8fafc;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 2rem;
+    background: rgba(15, 10, 21, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    font-weight: 800;
+    color: #f8fafc;
+}
+
+.logo-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.85rem;
+    background: #e11d48;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: #cbd5e1;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffffff;
+}
+
+.page-body {
+    width: min(100%, 1180px);
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.75rem;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.eyebrow {
+    margin-bottom: 1rem;
+    color: #f9a8d4;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.86rem;
+}
+
+.hero-copy-block h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    line-height: 0.95;
+}
+
+.hero-copy {
+    margin-top: 1.5rem;
+    max-width: 36rem;
+    color: #d1d5db;
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.9rem;
+    border-radius: 999px;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+}
+
+.primary {
+    background: linear-gradient(135deg, #fb7185 0%, #dc2626 100%);
+    color: #fff;
+}
+
+.secondary {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #f8fafc;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.hero-visual {
+    position: relative;
+    min-height: 320px;
+    display: grid;
+    place-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 1.75rem;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+}
+
+.card {
+    width: 9rem;
+    height: 12rem;
+    border-radius: 1.6rem;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-1 {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: linear-gradient(180deg, #111827 0%, #3f1e44 100%);
+    transform: rotate(-12deg);
+}
+
+.card-2 {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    background: linear-gradient(180deg, #7c1130 0%, #21070f 100%);
+    transform: rotate(12deg);
+}
+
+.chip {
+    position: relative;
+    z-index: 1;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle, #fef2f2 0%, #ef4444 45%, #7f1d1d 100%);
+    color: #111827;
+    font-size: 1.2rem;
+    font-weight: 800;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.35);
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    padding: 1.75rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.feature-card h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.1rem;
+}
+
+.feature-card p {
+    margin: 0;
+    color: #cbd5e1;
+    line-height: 1.75;
+}
+
+@media (max-width: 860px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-visual {
+        min-height: 240px;
+    }
+}
