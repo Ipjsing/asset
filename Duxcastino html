@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>DUXCASINO | HOME</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a class="logo-img" href="index.html">
+        <img class="logo-img" src="./logo_DUX Casino.png" alt="DUXCASINO Logo" />
+      </a>
+      <!-- nav menu -->
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">ALL GAMES</a>
+        <a href="#" class="nav-link">PROMOTIONS</a>
+        <a href="#" class="nav-link">VIP</a>
+        <a href="#" class="nav-link">DUX BOXES</a>
+        <a href="#" class="nav-link">PATH TO REWARDS</a>
+      </div>
+      <!-- NAV BUTTONS -->
+      <div class="nav-btn">
+        <a href="#" class="btn">LOGIN</a>
+        <a href="#" class="btn">SIGN UP</a>
+      </div>
+      <!-- country -->
+      <div class="country">
+        <img src="./GB.png" alt="Country Flag" />
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero">
+      <div class="hero-content">
+        <div class="welcome-package">
+          <h2>welcome package</h2>
+          <h2>€500</h2>
+          <h3 style="color: #ffffff;">+150 FREE SPINS</h3>
+          <button class="welcome-package-btn">JOIN NOW</button>
+        </div>
+
+        <div class="sponsors">
+          <img src="./Visa.png" alt="Visa Logo" />
+          <img src="./Mastercard.png" alt="master card Logo" />
+          <img src="./Maestro.png" alt="maestro Logo" />
+          <img src="./Jeton.png" alt="jaton Logo" />
+          <img src="./Rapid.png" alt="rapid Logo" />
+        </div>
+      </div>
+    </div>
+
+    <!-- rating section -->
+    <div class="rating">
+      <img src="./Rating score (1).png" alt="Rating" />
+      <img src="./Rating score (2).png" alt="Rating" />
+      <img src= "./Rating score (3).png" alt="Rating" />
+      <img src="./Rating score (4).png" alt="Rating" />
+      <img src="./Rating score (5).png" alt="Rating" />
+      <img src="./Rating score.png" alt="Rating" />
+    </div>
+
+    <!--  popular games -->
+    <div class="popular-games">
+      <div class="header">
+        <h2>Popular Games</h2>
+      </div>
+      <div class="popular-content">
+        <img src="./SQ IMAGES - Laptop (1).png" alt="Sugar rush Game" />
+        <img src="./SQ IMAGES - Laptop (2).png" alt="Book Game" />
+        <img src="./SQ IMAGES - Laptop (3).png" alt="Starlight Game" />
+        <img src="./SQ IMAGES - Laptop (4).png" alt="Mustang Game" />
+        <img src="./SQ IMAGES - Laptop (5).png" alt="Legacy Game" />
+        <img src="./SQ IMAGES - Laptop (6).png" alt="Buffalo Game" />
+        <img src="./SQ IMAGES - Laptop (7).png" alt="Olympic Game" />
+        <img src="./SQ IMAGES - Laptop (8).png" alt="Hit bar Game" />
+        <img src="./SQ IMAGES - Laptop (9).png" alt="Dragon Game" />
+        <img src="./SQ IMAGES - Laptop.png"alt="Sweet Game" />
+      </div>
+    </div>
+    <!-- view more -->
+    <div class="view-more">
+      <a href="#" class="btn">VIEW MORE GAMES</a>
+    </div>
+    <!-- providers -->
+    <div class="providers-content">
+      <img src="./Providers [color] (1).png" alt="Providers" />
+      <img src="./Providers [color] (2).png" alt="Providers" />
+      <img src="./Providers [color] (3).png" alt="Providers" />
+      <img src="./Providers [color] (4).png" alt="Providers" />
+      <img src="./Providers [color] (5).png" alt="Providers" />
+      <img src="./Providers [color].png" alt="Providers" />
+    </div>
+    <!-- vip service -->
+    <div class="vip-service">
+      <div class="service-header">
+        <h2>VIP SERVICES</h2>
+      </div>
+      <div class="service-content">
+        <div class="service-item">
+          <img src="./card-icon-star 1 (1).png" alt="24/7 Support" />
+          <h3>Expert Service</h3>
+          <p>
+            our support team will provide you with with best onliine casino
+            experience are are always keen to help you
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="./card-icon-star 1 (2).png" alt="Fast Withdrawal" />
+          <h3>Personal Bonuses</h3>
+          <p>
+            we value your time gaming with us, and our manager are willing to
+            surprise you with great bonuses
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="./card-icon-star 1.png" alt="Personal Manager" />
+          <h3>Lots of Events</h3>
+          <p>
+            There is always something for you at DuxCasino, Events are waiting
+            <br> 24/7
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- banner-code -->
+    <div class="banner-code">
+      <div class="code-header">
+        <h2>Available on your Phone</h2>
+        <p>
+          DuxCasino is an online casino where players<br>
+          from around the world can enjoy their favourite games<br>
+          and plunge themselves into the online world of <br> video
+          slots, live casino and more.
+        </p>
+        <div class="code">
+          <img src="./Online Casino _ Gambling design (Community) (Copy) (1)/socials/Providers/app-qr 1.png" alt="QR Code" />
+          <div class="code-text">
+            <h3>
+              download on<br />
+              your phone
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <h2 class="the-end">the best payment solutions and games providers</h2>
+  </body>
+</html>
